@@ -6,9 +6,7 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Footer from './components/Footer/Footer'
-import {_disableReactDevTools, disableReactDevTools} from '@fvilers/disable-react-devtools'
 
-if(process.env.NODE_ENV==='production') disableReactDevTools();
 
 const App = () => {
   const [showLogin,setShowLogin]=useState(false)
